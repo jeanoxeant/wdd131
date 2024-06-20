@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #5e277c;
+    --secondary-color: #6fff00;
+    --accent1-color: #f8d00d;
+    --accent2-color: #002570;
+    
+    --heading-font: "Red Hat Display", serif;
+    --paragraph-font: "Red Hat Display", serif;
+    
+    --nav-background-color: #5e277c;
+    --nav-link-color: #6fff00;
+    --nav-hover-link-color: #002570;
+    --nav-hover-background-color: #f8d00d;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.4em;
+    color: rgb(217, 217, 223);
+    text-align: center;
+    background-color: #002570;
+}
+
+nav {
+    background-color: #5a8cef;
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: 10px;
+    border-color: #002570;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-radius: 10px;
+    border-color: #002570;
+}#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+
