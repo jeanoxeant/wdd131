@@ -8,6 +8,7 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jean Rubin Oxeant - Home Page">
     <meta name="author" content="Jean Rubin Oxeant">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="getdates.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     </header>
     <main>
         <section class="card">
-            <h2>About Me</h2>
+            <h3>About Me</h3>
             <picture>
                 <img src="images/profile.jpg" width="200" height="250" alt="Jean Oxeant">
             </picture>
@@ -34,12 +35,29 @@
                 who did not have a job to take care of their family.
                 I love teaching. In different occasion, I had the opportunity to teach people in different branches:
                 like English, piano and so on…
-                I am a hard worker. I like to finish anything that I start. I don’t like to start anything if I know
+                I am a hard worker. I like to finish anything that I start. I do not like to start anything if I know
                 that I will not be able to finish it. Enduring to the end is my passion. I love computer programming.
-                Even though it’s a hard work to do, but I love challenging stuff.</p>
+                Even though it is a hard work to do, but I love challenging stuff.
+            </p>
+            <div class="box">
+                <h4>Haiti</h4>
+                <figure>
+                    <img src="images/haiti.jpg" alt="Haiti, Port-au-Prince">
+                    <figcaption>Haiti Palace</figcaption>
+                </figure>
+
+                <p><strong>"Port-au-Prince</strong> is the capital and most populous city of Haiti. The city's
+                    population was
+                    estimated at 1,200,000 in 2022 with the metropolitan area estimated at a population of 2,618,894.
+                    The
+                    metropolitan area is defined by the IHSI as including the communes of Port-au-Prince, Delmas, Cite
+                    Soleil,
+                    Tabarre, Carrefour and Pétion-Ville."-Wiki
+                </p>
+            </div>
         </section>
         <section class="image">
-            <h2>Web Dev Resources</h2>
+            <h3>Web Dev Resources</h3>
             <nav>
                 <ul>
                     <li><a href="https://dev.to/">Dev.to Comunity</a></li>
@@ -47,23 +65,16 @@
                     <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
                     <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
                     <li><a href="https://www.udemy.com/">udemy</a></li>
-                    <li><a href="">Dev.to Comunity</a></li>
+                    <li><a href="https://picsum.photos/">Lorem Picsum Placeholder</a></li>
                 </ul>
             </nav>
-            
+
         </section>
     </main>
-    <aside class="box">
-        <h2>Haiti</h2>
-        <img src="images/haiti.jpg" alt="Haiti, Port-au-Prince">
-        <p><strong>"Port-au-Prince</strong> is the capital and most populous city of Haiti. The city's population was
-            estimated at 1,200,000 in 2022 with the metropolitan area estimated at a population of 2,618,894. The
-            metropolitan area is defined by the IHSI as including the communes of Port-au-Prince, Delmas, Cite Soleil,
-            Tabarre, Carrefour and Pétion-Ville."-Wiki </p>
-    </aside>
+
     <footer>
-        <p>©<span id="currentyear">2024</span> ‖ Jean Rubin Oxeant ‖ Dominican Republic</p>
-        <p>lastModified</p>
+        <p>©<span id="currentyear"></span> ‖ Jean Rubin Oxeant ‖ Dominican Republic</p>
+        <p>Last Modification: <span id="demo"></span></p> 
     </footer>
 </body>
 

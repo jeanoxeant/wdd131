@@ -1,4 +1,7 @@
-@media  screen and (min-width: 500px) {
+@media  screen and (min-width: 32rem) {
+    span {
+        background-color: green;
+    }
 
 }
 

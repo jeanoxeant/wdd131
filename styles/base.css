@@ -29,25 +29,39 @@ body {
 }
 
 header {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     max-width: 100%;
 }
 
-h1 {
-    margin: 1rem;
+header nav {
+    background-color: #333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}
+
+header a {
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+
+header h1 {
+    /*margin: 1rem;*/
     font-size: 1.4em;
-    color: rgb(217, 217, 223);
+    color: white;
     text-align: center;
     background-color: #002570;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-nav {
-    background-color: #5a8cef;
-}
-
-.a {
-    display: flex;
-    justify-content: space-between;
+nav ul {
+    /*background-color: #5a8cef;*/
+    margin-top: 150px;
+    margin-left: 2rem;
 }
 
 main {
@@ -57,14 +71,90 @@ main {
     border-color: #002570;
 }
 
-.card {
+.image .card {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+    
+}
+
+.image h3 {
+    background-color: #002570;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.card h3 {
+    background-color: #002570;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+picture img {
+    float: right; 
+    padding-top: 2rem; 
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.box figure  {
+    float: left; 
+    padding-top: 2rem; 
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    width: 250px;
+}
+
+figure img {
+    float: left; 
+    /*padding-top: 2rem; */
+    padding-right: 2rem;
+    padding-left: 1rem;
+    /*padding-bottom: 1rem;*/
+    width: 250px;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+
+.box {
+    margin-top: 3rem;
+}
+
+.box h4 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.box p {
+    /*text-align: right;*/
+}
+
+.card p{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section {
+    border: 1px solid #bbb;
+    margin: 10px;
     border-radius: 10px;
-    border-color: #002570;
-}#
-
-
+}
 
 
 
@@ -82,12 +172,15 @@ button:hover {
 }
 
 footer {
-    margin: 1rem auto 0;
-    width: 650px;
+    /*margin: 1rem auto 0;*/
+    max-width: 100%;
     text-align: center;
     font-size: 0.8em;
-    color: #777;
+    color:white;
     border-top: 1px solid #ccc;
+    background-color: #002570;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
