@@ -1,1 +1,6 @@
-document.getElementById("demo").innerHTML = document.lastModified;
+
+
+let year = document.getElementById("currentyear");
+let d = new Date();
+
+time.innerHtml = d.toLocaleTimeString();
