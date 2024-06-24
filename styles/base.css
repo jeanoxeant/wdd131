@@ -78,7 +78,7 @@ main {
     
 }
 
-.image h3 {
+.image h2 {
     background-color: #002570;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -89,7 +89,7 @@ main {
     
 }
 
-.card h3 {
+.card h2 {
     background-color: #002570;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -134,7 +134,7 @@ figure figcaption {
     margin-top: 3rem;
 }
 
-.box h4 {
+.box h3 {
     border-bottom: 1px solid #ccc;
     text-align: center;
     margin-left: 2rem;
