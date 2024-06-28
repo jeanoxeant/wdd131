@@ -16,13 +16,10 @@ header {
 
 header, footer {
    max-width: 100%;
-    
 }
 
 main {
-    padding: auto;
-    margin: auto;
-    text-align: center;
+    /*text-align: center;*/
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -53,7 +50,6 @@ nav a {
 	text-decoration: none;
 }
 
-
 header nav a {
     color: #fff;
     flex: 1 1 100%;
@@ -79,6 +75,7 @@ figure {
 
 figcaption {
     font-size: smaller;
+    padding-left: 3rem;
 }
 
 img {
