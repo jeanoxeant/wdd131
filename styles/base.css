@@ -23,14 +23,12 @@ header nav {
     color: white;
 }
 
-
 header nav a {
     flex: 1 1 100%;
     color: white;
 }
 
 header h1 {
-    /*margin: 1rem;*/
     font-size: 1.4em;
     color: white;
     text-align: center;
@@ -52,12 +50,12 @@ main {
     border-radius: 10px;
     border-color: #002570;
 }
-
+/*
 .image .card {
     display: grid;
     grid-template-columns: minmax(150px, 25%) 1fr;
     
-}
+}*/
 
 .image h2 {
     background-color: #002570;
@@ -67,7 +65,6 @@ main {
     color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    
 }
 
 .card h2 {
