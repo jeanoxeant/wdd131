@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+
+    span {
+        background-color: green;
+    }
+
+    main {
+        display: block;
+    }
+ 
+}
+

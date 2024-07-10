@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Jean Rubin Oxeant</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jean Rubin Oxeant - Place">
+    <meta name="author" content="Jean Rubin Oxeant">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Dominican Republic</h1>
+
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source  srcset="images/place-wide.webp" media="(min-width:1000px)">
+                <img src="images/place-small-1.webp" alt="Rounded Mountain Miches">
+            </picture>
+        </div>
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 48,442 sq km</li>
+                <li>Population: 11,000,000.23</li>
+                <li>Capital: Santo Domingo</li>
+                <li>Language: Spanish</li>
+                <li>Currency: Dominican Peso</li>
+                <li>Time Zone: UTC -4</li>
+                <li>Calling Code: +1</li>
+                <li>Internet TLD:.do</li>
+            </ul>
+
+        </section>
+        <section class="weather">
+            <h2>Weather<img src="images/weather.svg" alt="Weather image"></h2>
+            <ul>
+                <li>Temperature: <span id="temperature"></span>  (°F)</li>
+                <li>Conditions: <span id="conditions"></span></li>
+                <li>Wind: <span id="wind"></span>  (mph)</li>
+                <li>Wind Chill: <span id="windChill"></span> (°F)</li>
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> ‖ Jean Rubin Oxeant ‖ Dominican Republic</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
