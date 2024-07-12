@@ -14,6 +14,7 @@ header {
 }
 
 .hero {
+    display: block;
     min-width: 500px;
     
 }
