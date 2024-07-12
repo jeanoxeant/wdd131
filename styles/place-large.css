@@ -15,13 +15,8 @@ header {
     
 }
 
-main {
-   /* display: block;*/
-    
-}
-
 .hero img {
-    max-width: fit-content;
+    max-width: none;
     
 }
 
