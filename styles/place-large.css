@@ -9,16 +9,15 @@ header {
     padding-bottom: 2rem;
 }
 
-.data {
-    
-    text-align: center;
+.data { 
+    text-align: center;  
+}
+
+.hero {
+    min-width: 500px;
     
 }
 
-.hero img {
-    max-width: none;
-    
-}
 
 ul {
     list-style-type: none;
