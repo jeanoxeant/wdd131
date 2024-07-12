@@ -15,6 +15,16 @@ header {
     
 }
 
+main {
+   /* display: block;*/
+    
+}
+
+.hero img {
+    max-width: fit-content;
+    
+}
+
 ul {
     list-style-type: none;
 }
@@ -25,25 +35,21 @@ ul {
     text-align: center;   
 }
 
-.weather {
-    
-    text-align: center;
-   
-    
+.weather {   
+    text-align: center;  
 }
 
 .weather img {
-   /* width: 100px;*/
+    width: 50px;
     height: auto;
     
-
 }
 
 h2 {
     font-size: 35px;
-    padding: 1rem;
+   /* padding: 1rem;
     margin-left: -10px;
-    margin-right: 30px;
+    margin-right: 30px;*/
 }
 
 footer {
