@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 645px) {
 
     span {
        /* color: #b00303;*/
@@ -11,6 +11,10 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
+
+    h2 {
+        text-align: center;
+    }
     
 
 
@@ -74,15 +78,11 @@
         display: flex; 
         flex-direction: row;
         flex-wrap: wrap;
-        
-        
         gap: 5px;
-        place-items: center;
         max-width: 100%;
-    /* margin-left: 2.5rem;
-        margin-right: 2.5rem;*/
         text-align: center;
         /*border: 1px solid #ccc;*/
+        text-align: center;
         
     }
 
@@ -90,6 +90,7 @@
         filter: drop-shadow(8px 8px 10px black);
         padding: 1rem;
         max-width: 100%;
+        display: block;
     }
 
     section {
