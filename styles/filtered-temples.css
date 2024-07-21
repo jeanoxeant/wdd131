@@ -64,7 +64,8 @@
         gap: 5px;
         place-items: center;
         max-width: 100%;
-    
+        align-items: center;
+        justify-content: center;
         text-align: center;
         border: 1px solid #ccc;
         
