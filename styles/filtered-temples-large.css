@@ -83,15 +83,19 @@
         text-align: center;
         /*border: 1px solid #ccc;*/
         text-align: center;
-        
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     img {
         filter: drop-shadow(8px 8px 10px black);
         padding: 1rem;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: auto;
+        height: auto;
+
     }
 
     section {
