@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Jean Rubin Oxeant</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Jean Rubin Oxeant - Form">
+    <meta name="author" content="Jean Rubin Oxeant">
+    <link rel="stylesheet" href="styles/form-small.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <label for="products">Product Name*
+                    <select name="products" id="products" class="sonel" required>
+                        <option value="select" disabled selected>Select a Product ...</option>
+                    </select> 
+                      
+                </label>
+                <div>Overall Rating</div>
+                <label><input type="radio" name="rating" required> ☆</label>
+                <label><input type="radio" name="rating" required> ☆☆</label>
+                <label><input type="radio" name="rating" required> ☆☆☆</label>
+                <label><input type="radio" name="rating" required> ☆☆☆☆</label>
+                <label><input type="radio" name="rating" required> ☆☆☆☆☆</label>
+
+                <label>Date of Installation <input type="date" name="completeDate" required></label>
+
+                <div>Which features did you find useful in the product?</br>(Check all that apply)</div>
+                <label><input type="checkbox" name="editing" value="yes"> Durability</label>
+                <label><input type="checkbox" name="code" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" name="process" value="yes"> Performance</label>
+                <label><input type="checkbox" name="client" value="yes"> Design</label>
+
+                <label for="story">Written Review (Optional)</label>
+                <textarea id="story" name="story" rows="5" cols="33">
+                    It was a dark and stormy night...
+                </textarea>
+
+                <label>Your Name (Optional) <input type="text" name="username"></label>
+            </fieldset>
+           
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> ‖ Jean Rubin Oxeant ‖ Dominican Republic</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
