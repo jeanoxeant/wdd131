@@ -40,17 +40,17 @@ const products = [
   createProductCard(products);
 
   function createProductCard(filteredProducts) {
-    document.querySelector(".products, .sonel").innerHTML = "";
+    document.querySelector(".sonel").innerHTML = "";
     filteredProducts.forEach(product => {
         let card = document.createElement("option");
-        //let name = document.createElement("h3");
-        let name = document.createElement("option");
-       // let id = document.createElement("option");
+        let name = document.createElement("");
+        //let id = document.createElement("option");
         
        
 
         //name.textContent = product.name;
         name.innerHTML = `<option value="${product.id}">${product.name}</option>`;
+        
         
       
         
@@ -58,9 +58,9 @@ const products = [
         //card.appendChild(name);
         card.appendChild(name);
         
-       	//card.appendChild(id);
+       
        
 
-        document.querySelector(".products, .sonel").appendChild(card);
+        document.querySelector(".sonel").appendChild(card);
     });
   }
