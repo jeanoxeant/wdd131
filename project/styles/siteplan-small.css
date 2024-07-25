@@ -34,6 +34,10 @@ img {
     width: 900px;
 }
 
+.small {
+    width: 500px;
+}
+
 footer {
     text-align: center;
     font-size: 1em;
