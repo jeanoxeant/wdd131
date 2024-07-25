@@ -43,24 +43,13 @@ const products = [
     document.querySelector(".sonel").innerHTML = "";
     filteredProducts.forEach(product => {
         let card = document.createElement("option");
-        let name = document.createElement("");
-        //let id = document.createElement("option");
+        let name = document.createElement("option");
+        let id = document.createElement("option");
         
-       
-
-        //name.textContent = product.name;
         name.innerHTML = `<option value="${product.id}">${product.name}</option>`;
         
-        
-      
-        
-        
-        //card.appendChild(name);
         card.appendChild(name);
         
-       
-       
-
         document.querySelector(".sonel").appendChild(card);
     });
   }
