@@ -44,7 +44,7 @@ const products = [
     filteredProducts.forEach(product => {
         let card = document.createElement("option");
         let name = document.createElement("option");
-        let id = document.createElement("option");
+        
         
         name.innerHTML = `<option value="${product.id}">${product.name}</option>`;
         
