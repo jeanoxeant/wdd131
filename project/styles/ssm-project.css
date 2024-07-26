@@ -1,0 +1,29 @@
+.pictures {
+    display: flex; 
+    flex-direction: column;
+    gap: 5px;
+    place-items: center;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    
+}
+
+img {
+    filter: drop-shadow(8px 8px 10px black);
+    padding: 1rem;
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    width: auto;
+    height: auto;
+    float: right;
+}
+
+section {
+    border: 1px solid #ccc;
+    background-color: #d9ded9;
+    max-width: 100%;
+}
