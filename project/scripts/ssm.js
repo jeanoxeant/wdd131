@@ -50,41 +50,7 @@ const projects = [
 
 
   createProjectCard(projects);
-/*
-      const homeLink = document.querySelector("#home");
-      homeLink.addEventListener("click", () => { 
-      
-        createTempleCard(temples.filter(temple => temple.templeName.includes(" ")));
-        
-      });
-    
-      const oldLink = document.querySelector("#old");
-      oldLink.addEventListener("click", () => { 
-      
-        createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(' ')[0]) < 1900));
-        
-      });
 
-      const newLink = document.querySelector("#new");
-      newLink.addEventListener("click", () => { 
-      
-        createTempleCard(temples.filter(temple => parseInt(temple.dedicated.split(' ')[0]) > 2000));
-        
-      });
-
-      const largeLink = document.querySelector("#large");
-      largeLink.addEventListener("click", () => { 
-      
-        createTempleCard(temples.filter(temple => temple.area > 90000));
-        
-      });
-
-      const smallLink = document.querySelector("#small");
-      smallLink.addEventListener("click", () => { 
-      
-        createTempleCard(temples.filter(temple => temple.area < 10000));
-        
-      });*/
 
     
   function createProjectCard(filteredProjects) {
